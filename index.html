@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 1 Homework</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      div {
+        margin: 40px;
+      }
+      ul {
+        list-style: none;
+        padding: 10px 0;
+        font-size: 25px;
+      }
+      .future-weather:hover {
+        background-color: #fffbef;
+        border-radius: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      li {
+        padding: 5px;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        border: none;
+        border-radius: 50px;
+        background-color: royalblue;
+        color: white;
+        padding: 20px;
+        font-size: 15px;
+      }
+      button:hover {
+        background-color: white;
+        border: 1px solid royalblue;
+        color: royalblue;
+      }
+      .current-city {
+        font-size: 30px;
+        color: royalblue;
+      }
+      .current-temp {
+        font-size: 30px;
+      }
+      .author {
+        font-size: 20px;
+        font-family: "Special Elite", cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li>🌤</li>
+        <li class="current-city"><strong>Currently 21 in Tokyo</strong></li>
+        <li class="current-temp">13° / <strong>23°</strong></li>
+      </ul>
+    </div>
+
+    <div class="future-weather">
+      <ul>
+        <li>🌧 <strong>Tomorrow</strong></li>
+        <li>10° / <strong>22°</strong></li>
+      </ul>
+    </div>
+
+    <div class="future-weather">
+      <ul>
+        <li>⛅️ <strong>Saturday</strong></li>
+        <li>15° / <strong>17°</strong></li>
+      </ul>
+    </div>
+
+    <div class="future-weather">
+      <ul>
+        <li>☀️ <strong>Sunday</strong></li>
+        <li>25° / <strong>28°</strong></li>
+      </ul>
+    </div>
+
+    <button>Change City</button>
+
+    <div class="author">coded by Sarah</div>
+  </body>
+</html>
